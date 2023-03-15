@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeeshan Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Zeeshan's Gallery</h1>
+        <ul class="nav-links">
+            <li><a href="#myimages">MYIMAGES</a></li>
+            <li><a href="#contact-me">CONTACTUS</a></li>
+        </ul>
+    </nav>
+    <header>
+        <ul class="main-nav">
+            <li class="item1">
+              <div class="bg"></div>
+            </li>
+            <li class="item2">
+              <div class="bg"></div>
+            </li>
+            <li class="item3">
+              <div class="bg"></div>
+            </li>
+            <li class="item4">
+              <div class="bg"></div>
+            </li>
+            <li class="item5">
+              <div class="bg"></div>
+            </li>
+          </ul>
+    </header>
+
+    <main>
+        <h1 align="center" id="myimages">Images</h1><br>
+    <div class="item">
+        <div class="card">
+                <img src="./images/nature1.avif" alt="" style="width:100%">
+                <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        </div>
+        <div class="card">
+            <img src="./images/nature2.avif" alt="" style="width:100%">
+            <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+    </div>
+    <div class="card">
+        <img src="./images/nature3.avif" alt="" style="width:100%">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+</div>
+</div>           
+</main>
+    
+    <div class="contact" id="contact-me">
+        <div class="container">
+          <div class="contact-content">
+            <h2>Contact Me</h2>
+            <p class="mail">
+              Get in touch with me <i class="fas fa-arrow-right"></i> mz779318@gmail.com
+            </p>
+            <p class="links">Or find me on:</p>
+            <a href="https://www.linkedin.com/in/sanket-bodake-995b5b205/" target="blank"><i class="fab fa-linkedin">
+                Linkedin</i></a>
+            <a href="https://twitter.com/realzeeshan016" target="blank"><i class="fab fa-twitter"> Twitter</i></a>
+            <a href="https://www.instagram.com/realzeeshan_07/" target="blank"><i class="fab fa-instagram"></i> Instagram</a>
+          </div>
+        </div>
+      </div>
+      <script>
+        function myFunction(x) {
+          x.classList.toggle("fa-thumbs-down");
+        }
+        </script>
+        
+</body>
+</html>
